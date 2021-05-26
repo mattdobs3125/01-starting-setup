@@ -1,5 +1,5 @@
 import ExpenseItems from './components/ExpenseItems';
-
+import MenuBar from './components/MenuBar.js'
 
 
 function App() {
@@ -30,6 +30,8 @@ function App() {
 
   return (
     <div>
+      <MenuBar/>
+      
       <ExpenseItems expenses={expenses}/>
     </div>
       );
